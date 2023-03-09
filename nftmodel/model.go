@@ -19,6 +19,7 @@ type NFT struct {
 	Owner       string `json:"owner,omitempty" bson:"owner,omitempty"`
 	RoundID     string `json:"round_id,omitempty" bson:"round_id,omitempty"`
 	Type        string `json:"type,omitempty" bson:"type,omitempty"`
+	URL         string `json:"url,omitempty" bson:"url,omitempty"`
 	TxDigest    string `json:"tx_digest,omitempty" bson:"tx_digest,omitempty"`
 }
 
